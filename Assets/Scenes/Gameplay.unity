@@ -945,6 +945,7 @@ GameObject:
   - component: {fileID: 1628353826}
   - component: {fileID: 1628353828}
   - component: {fileID: 1628353827}
+  - component: {fileID: 1628353829}
   m_Layer: 0
   m_Name: Player_Holder
   m_TagString: Untagged
@@ -975,7 +976,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1628353824}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4c4dc582206c83418fc023a10e74e60, type: 3}
   m_Name: 
@@ -1016,6 +1017,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1628353829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628353824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89f126ef888279d40a9789177e6a17b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
+  josytick: {fileID: 1883570784}
 --- !u!1001 &1636354104
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1245,6 +1260,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 311ac6a3502074b70a9643440768ce09, type: 3}
+--- !u!114 &1883570784 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5134979928641164207, guid: 311ac6a3502074b70a9643440768ce09, type: 3}
+  m_PrefabInstance: {fileID: 1883570783}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45977bbae16431c46a013576a1aea384, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1889381070
 PrefabInstance:
   m_ObjectHideFlags: 0
