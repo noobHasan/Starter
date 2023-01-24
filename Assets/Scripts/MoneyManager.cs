@@ -40,7 +40,7 @@ public class MoneyManager : MonoBehaviour
         for (int i = 0; i < 10; i++)
         {
             Transform money = Instantiate(moneyIcon.transform);
-            money.SetParent(moneySpawnPos);
+            money.parent = moneySpawnPos;
             money.transform.localPosition = moneySpawnPos.transform.localPosition;
             money.gameObject.SetActive(false);
             moneyList.Add(money);
